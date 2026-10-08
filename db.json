@@ -75,10 +75,10 @@
     { "id": 4, "numero": "104", "tipo": "standart", "capacidade": "2", "status": "ocupado", "observacoes": "texto", "idTarifa": "4", "idPacote": "4" }
   ],
   "tarifa": [
-    { "id": 1, "valor": "R$00,00", "tipoPeriodo": "Alta Temporada", "data inicio": "11/11/1111", "data fim": "11/11/1111" },
-    { "id": 2, "valor": "R$00,00", "tipoPeriodo": "Baixa Temporada", "data inicio": "11/11/1111", "data fim": "11/11/1111" },
-    { "id": 3, "valor": "R$00,00", "tipoPeriodo": "Alta Temporada", "data inicio": "11/11/1111", "data fim": "11/11/1111" },
-    { "id": 4, "valor": "R$00,00", "tipoPeriodo": "Feriado", "data inicio": "11/11/1111", "data fim": "11/11/1111" }
+    { "id": 1, "tipoQuarto": "Luxo","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
+    { "id": 1, "tipoQuarto": "Standard","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
+    { "id": 1, "tipoQuarto": "Superior","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
+    { "id": 1, "tipoQuarto": "Cobertura","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" }
   ],
   "pacote": [
     { "id": 1, "nome": "Natal", "descricao": "ceia,vinho", "preco": "R$00,00", "validade": "11/11/1111", "quantidade": "2", "status": "ativo" },
