@@ -76,9 +76,14 @@
   ],
   "tarifa": [
     { "id": 1, "tipoQuarto": "Luxo","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
-    { "id": 1, "tipoQuarto": "Standard","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
-    { "id": 1, "tipoQuarto": "Superior","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
-    { "id": 1, "tipoQuarto": "Cobertura","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" }
+    { "id": 2, "tipoQuarto": "Standard","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
+    { "id": 3, "tipoQuarto": "Superior","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" },
+    { "id": 4, "tipoQuarto": "Cobertura","Capacidade": "2 hospedes","valorDiarias": "R$00,00", "Status":"Ativo" }
+  ],
+    "periodoTarifario": [
+    { "id": 1, "periodo": "Alta Temporada","inicio": "00/00/0000","fim": "00/00/0000","ajusteTarifa": "+30%" "Status":"Ativo" },
+    { "id": 2, "periodo": "Baixa Temporada","inicio": "00/00/0000","fim": "00/00/0000","ajusteTarifa": "-10%" "Status":"Ativo" },
+    { "id": 3, "periodo": "Feriados","inicio": "00/00/0000","fim": "00/00/0000","ajusteTarifa": "+40%" "Status":"Ativo" }
   ],
   "pacote": [
     { "id": 1, "nome": "Natal", "descricao": "ceia,vinho", "preco": "R$00,00", "validade": "11/11/1111", "quantidade": "2", "status": "ativo" },
